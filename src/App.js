@@ -12,10 +12,6 @@ function App() {
         <Route path='/apply' element={<Apply/>} />
       </Routes>
     </BrowserRouter>
-    // <BrowswerRoute>
-    //   <Routes>
-    //     <Route path='/' element={<Home/>}/>
-    //   </Routes>
   )
 }
 

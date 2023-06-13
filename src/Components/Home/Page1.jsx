@@ -5,7 +5,7 @@ const Page1=()=>{
     return(
         <div className="page1">
             <div className="vid">
-                <video src={school} alt="" autoPlay loop muted/>   
+                <video src={school} autoPlay loop muted/>   
             </div>
             <div className="page-cont">
                 <h2>Are you curious About Albuquerque Academy?</h2>

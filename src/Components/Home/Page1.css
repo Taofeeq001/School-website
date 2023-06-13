@@ -123,3 +123,27 @@
 .curious button:hover{
     background-color: rgb(95, 6, 6);
 }
+/*================== ACADEMIC EXPERIENCE, TRADITIONAL EXCELLENCE ==================*/
+.experience{
+    display: flex;
+    flex-direction: column;
+}
+.experience1{
+    display: flex;
+    width: 100%;
+}
+.img1{
+    background: url(../../Images/excellence.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 60px;
+}
+.img2{
+    background: url(../../Images/traditional.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 60px;
+
+}

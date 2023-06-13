@@ -86,8 +86,39 @@ const Page1=()=>{
                 </div>
                 <button>LEARN FROM MORE OF OUR STUDENTS</button>
             </div>
-            <div>
-                
+            
+            {/* ============= ACADEMIC EXPERIENCE, TRADITIONAL EXCELLENCE AND OTHER================ */}
+            
+            <div className="experience">
+                <div className="experience1">
+                    <div className="img1">
+                        <h1>The Academy Experience</h1>
+                        <p>For more than 60 years, we have offered an education that broadens perspectives, sharpens minds, strengthens bodies, and engages hearts.</p>
+                        <button><a href="">READ MORE</a></button>
+                    </div>
+                    <div className="img2">
+                        <h1>A Tradition of Excellence</h1>
+                        <p>Academy has a long, proud tradition of scholarly, artistic, and athletic excellence and is considered one of the nation’s top independent schools.</p>
+                        <button><a href="">READ MORE</a></button>
+                    </div>
+                </div>
+                <div className="experience1">
+                    <div className="img1">
+                        <h1>The Academy Experience</h1>
+                        <p>For more than 60 years, we have offered an education that broadens perspectives, sharpens minds, strengthens bodies, and engages hearts.</p>
+                        <button><a href="">READ MORE</a></button>
+                    </div>
+                    <div className="img2">
+                        <h1>A Tradition of Excellence</h1>
+                        <p>Academy has a long, proud tradition of scholarly, artistic, and athletic excellence and is considered one of the nation’s top independent schools.</p>
+                        <button><a href="">READ MORE</a></button>
+                    </div>
+                    <div className="img2">
+                        <h1>A Tradition of Excellence</h1>
+                        <p>Academy has a long, proud tradition of scholarly, artistic, and athletic excellence and is considered one of the nation’s top independent schools.</p>
+                        <button><a href="">READ MORE</a></button>
+                    </div>
+                </div>
             </div>
             
             

@@ -1,0 +1,52 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.top{
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    padding-left: 50rem;
+    background-color: #4e0a0c;
+    gap: 50px;
+}
+.top a{
+    display: flex;
+    color: white;
+    font-weight: 600;
+}
+.nav-tab{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #CC2026;
+    padding: 10px 0;
+}
+.nav-tab img{
+    width: 120px;
+    height: 60px;
+}
+.tabs{
+    display: flex;
+    gap: 6rem;
+}
+.tabs a{
+    color: white;
+    font-size: x-large;
+    font-weight: 600;
+}
+.nav-tab-bellow{
+    display: flex;
+    padding: 15px 0 10px 30rem;
+    gap: 50px;
+    background-color: white;
+
+}
+.nav-tab-bellow a{
+    font-weight: 700;
+    color: #4e0a0c;
+    display: flex;
+    font-size: x-large;
+
+}

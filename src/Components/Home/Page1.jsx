@@ -2,10 +2,11 @@ import React from "react";
 import school from "../../Images/school.webm"
 import staff from '../../Images/recent-videos.jpg'
 import './Page1.css'
-import tomorrow from '../../Images/tomorrow.png'
-import difference from '../../Images/Difference.png'
-import bond from '../../Images/Bonds.png'
-import national from '../../Images/nationally.png'
+import data from "./Prep";
+// import tomorrow from '../../Images/tomorrow.png'
+// import difference from '../../Images/Difference.png'
+// import bond from '../../Images/Bonds.png'
+// import national from '../../Images/nationally.png'
 const Page1=()=>{
     return(
         <div className="page1">
@@ -161,11 +162,19 @@ const Page1=()=>{
             <div className="academy-progress">
                 <h1>Academy Prepares</h1>
                 <p>How are we preparing your student for college and life?</p>
-                <div>
-                    <div>
-                        img
-                    </div>
+                <div style={{display:'flex', gap:'20', width:'60%', marginTop:'30px'}}>
+                    {
+                        data.map((data)=>(
+                            <div style={{display:'flex', flexDirection:"column",alignItems:'center', width:'100%'}}>
+                                <img src={data.img} alt="" />
+                                <h3 style={{color:'red'}}>{data.heading}</h3>
+                                <p style={{width:'90%', textAlign:'center'}}>{data.paragraph}</p>
+                            </div>
+                        ))
+                    }
                 </div>
+                <h1 style={{width:'80%', textAlign:'center'}}>The Albuquerque Academy Class of 2022 will attend 85 colleges in 36 states, the District of Columbia, and British Columbia.</h1>
+            
             </div>
             
             

@@ -3,10 +3,8 @@ import school from "../../Images/school.webm"
 import staff from '../../Images/recent-videos.jpg'
 import './Page1.css'
 import data from "./Prep";
-// import tomorrow from '../../Images/tomorrow.png'
-// import difference from '../../Images/Difference.png'
-// import bond from '../../Images/Bonds.png'
-// import national from '../../Images/nationally.png'
+import Scroll from "./Scroll";
+
 const Page1=()=>{
     return(
         <div className="page1">
@@ -173,11 +171,14 @@ const Page1=()=>{
                         ))
                     }
                 </div>
-                <h1 style={{width:'80%', textAlign:'center'}}>The Albuquerque Academy Class of 2022 will attend 85 colleges in 36 states, the District of Columbia, and British Columbia.</h1>
-            
+                <div style={{width:'100%', display:'flex', flexDirection:'column', alignItems: 'center'}}>
+                    <h1 style={{width:'80%', textAlign:'center'}}>The Albuquerque Academy Class of 2022 will attend 85 colleges in 36 states, the District of Columbia, and British Columbia.</h1>
+                    <p style={{fontSize:'29px'}}> <span><a href="">Click here</a></span> to see the full list</p>
+                </div>
             </div>
-            
-            
+            <div style={{marginTop:"20px"}}>
+                <Scroll/>
+            </div>
         </div>
     )
 }

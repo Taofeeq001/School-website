@@ -7,7 +7,7 @@
     width: 100%;
     display: flex;
     padding: 10px 0;
-    padding-left: 50rem;
+    justify-content: center;
     background-color: #4e0a0c;
     gap: 50px;
 }
@@ -38,7 +38,8 @@
 }
 .nav-tab-bellow{
     display: flex;
-    padding: 15px 0 10px 35rem;
+    width: 100%;
+    justify-content: center;
     gap: 40px;
     background-color: white;
 

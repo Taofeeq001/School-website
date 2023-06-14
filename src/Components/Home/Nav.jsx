@@ -27,7 +27,7 @@ const Nav=()=>{
             <div className='nav-tab'>
                 <img src={logo} alt="" />
                 <div className='tabs'>
-                    <a href="">Apply</a>
+                    <a href="/apply">Apply</a>
                     <a href="">Visit</a>
                     <a href="">Get Info</a>
                     <a href="">Support</a>

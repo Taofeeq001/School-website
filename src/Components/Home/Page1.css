@@ -4,7 +4,6 @@
     height: 90vh;
     display: flex;
     flex-direction: column;
-    gap: 40px;
 }
 
 .page1 video{
@@ -38,7 +37,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-top: 40px; */
+    margin-top: 30px;
     gap: 20px;
 }
 .staffs p{
@@ -78,6 +77,8 @@
     flex-direction: column;
     align-items: center;
     gap: 7rem;
+    margin-top: 40px;
+
 }
 .curious-head{
     display: flex;
@@ -103,21 +104,19 @@
     display: flex;
 }
 .details2-cont{
-    width: 45%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 .details2-cont p{
-    width: 100%;
+    width: 90%;
     font-size: larger;
 }
 .curious button{
     padding: 15px 35px;
     background-color: red;
     border: none;
-    color: white;
-    font-weight: 600;
     cursor: pointer;
 }
 .curious button:hover{
@@ -127,6 +126,7 @@
 .experience{
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
 }
 .experience1{
     display: flex;
@@ -137,13 +137,118 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 50px 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 3rem 0 5rem;
+    gap: 15px;
+}
+.img1 h1, .img2 h1, .img3 h1, .img4 h1, .img5 h1{
+    color: white;
+}
+.img1 p{
+    width: 90%;
+    font-size: x-large;
+    color: white;
+}
+.img2 p{
+    width: 100%;
+    font-size: x-large;
+    color: white;
+}
+.img3 p, .img4 p, .img5 p{
+    width: 100%;
+    color: white;
+    font-size: x-large;
+}
+.experience1 button{
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-bottom: 7rem;
+}
+.experience1 button:hover{
+    background-color: #fff;
 }
 .img2{
     background: url(../../Images/traditional.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 50px 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 3rem 0 5rem;
+    gap: 15px;
+}
+.img3{
+    background: url(../../Images/globe.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 3rem 0 5rem;
+    gap: 15px;
+}
+.img4{
+    background: url(../../Images/Alumni.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 3rem 0 5rem;
+    gap: 15px;
+}
+.img5{
+    background: url(../../Images/after.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 3rem 0 5rem;
+    gap: 15px;
+}
+/*=============== LATEST NEWS ==========================*/
+.latest-news{
+    background-color: #D8D8D8;
+    width: 100%;
+    padding: 25px 0;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+.news-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.news-image{
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
 
+    position: relative;
+    overflow: hidden;
+}
+.news-image img{
+    width: 600px;
+    height: 300px;
+}
+.news-image img:hover{
+    transform: scale(1.1);
+    transition: .7s ease-in;
+}
+
+/*==================ACADEMY PROGRESS====================*/
+.academy-progress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }

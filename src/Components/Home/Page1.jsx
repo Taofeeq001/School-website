@@ -2,6 +2,10 @@ import React from "react";
 import school from "../../Images/school.webm"
 import staff from '../../Images/recent-videos.jpg'
 import './Page1.css'
+import tomorrow from '../../Images/tomorrow.png'
+import difference from '../../Images/Difference.png'
+import bond from '../../Images/Bonds.png'
+import national from '../../Images/nationally.png'
 const Page1=()=>{
     return(
         <div className="page1">
@@ -84,7 +88,7 @@ const Page1=()=>{
                         </div>
                     </div>
                 </div>
-                <button>LEARN FROM MORE OF OUR STUDENTS</button>
+                <button><a style={{color:'white', fontWeight:600}} href="">LEARN FROM MORE OF OUR STUDENTS</a></button>
             </div>
             
             {/* ============= ACADEMIC EXPERIENCE, TRADITIONAL EXCELLENCE AND OTHER================ */}
@@ -94,29 +98,72 @@ const Page1=()=>{
                     <div className="img1">
                         <h1>The Academy Experience</h1>
                         <p>For more than 60 years, we have offered an education that broadens perspectives, sharpens minds, strengthens bodies, and engages hearts.</p>
-                        <button><a href="">READ MORE</a></button>
+                        <div>
+                            <button><a style={{color:'grey', fontWeight:600, fontSize:"15px"}} href="">READ MORE</a></button>
+                        </div>
                     </div>
                     <div className="img2">
                         <h1>A Tradition of Excellence</h1>
                         <p>Academy has a long, proud tradition of scholarly, artistic, and athletic excellence and is considered one of the nation’s top independent schools.</p>
-                        <button><a href="">READ MORE</a></button>
+                        <div>
+                            <button><a style={{color:'grey', fontWeight:600, fontSize:"15px"}} href="">READ MORE</a></button>
+                        </div>
                     </div>
                 </div>
                 <div className="experience1">
-                    <div className="img1">
+                    <div className="img3">
                         <h1>The Academy Experience</h1>
                         <p>For more than 60 years, we have offered an education that broadens perspectives, sharpens minds, strengthens bodies, and engages hearts.</p>
-                        <button><a href="">READ MORE</a></button>
+                        <div>
+                            <button><a style={{color:'grey', fontWeight:600, fontSize:"15px"}} href="">READ MORE</a></button>
+                        </div>
                     </div>
-                    <div className="img2">
+                    <div className="img4">
                         <h1>A Tradition of Excellence</h1>
                         <p>Academy has a long, proud tradition of scholarly, artistic, and athletic excellence and is considered one of the nation’s top independent schools.</p>
-                        <button><a href="">READ MORE</a></button>
+                        <div>
+                            <button><a style={{color:'grey', fontWeight:600, fontSize:"15px"}} href="">READ MORE</a></button>
+                        </div>
                     </div>
-                    <div className="img2">
+                    <div className="img4">
                         <h1>A Tradition of Excellence</h1>
                         <p>Academy has a long, proud tradition of scholarly, artistic, and athletic excellence and is considered one of the nation’s top independent schools.</p>
-                        <button><a href="">READ MORE</a></button>
+                        <div>
+                            <button><a style={{color:'grey', fontWeight:600, fontSize:"15px"}} href="">READ MORE</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="latest-news">
+                <div className="news-content">
+                    <h1>Latest News</h1>
+                    <a href="">
+                        <h2>Academy Wins NMAA Director's Cup for Fifth Straight year</h2>
+                        <p>Alburquerque Academy has been awarded the New Mexico Activities</p>
+                    </a>
+                    <a href="">
+                        <h2>Academy Wins NMAA Director's Cup for Fifth Straight year</h2>
+                        <p>Alburquerque Academy has been awarded the New Mexico Activities</p>
+                    </a>
+                    <a href="">
+                        <h2>Academy Wins NMAA Director's Cup for Fifth Straight year</h2>
+                        <p>Alburquerque Academy has been awarded the New Mexico Activities</p>
+                    </a>
+                </div>
+                <div>
+                    <div className="news-image">
+                        <img src={staff} alt="" />
+                    </div>
+                    <p style={{fontSize:20, width:'70%', marginTop:'20'}}>Made possible by a gift from the Reidy family, Common Grounds opened in January 2020.</p>
+                </div>
+
+            </div>
+            <div className="academy-progress">
+                <h1>Academy Prepares</h1>
+                <p>How are we preparing your student for college and life?</p>
+                <div>
+                    <div>
+                        img
                     </div>
                 </div>
             </div>

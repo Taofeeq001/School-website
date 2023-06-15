@@ -84,6 +84,7 @@
         right: 0;
         overflow: hidden;
         transition: 3s ease-in-out;
+        z-index: 100;
     }
     .mobile-nav a{
         color: white;
@@ -98,7 +99,7 @@
         width: 80%;
         height: 100vh;
         transition: 3s ease-in-out;
-
     }
+    
     
 }

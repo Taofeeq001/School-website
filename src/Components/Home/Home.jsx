@@ -10,7 +10,7 @@ const Home=()=>{
         <div>
             <Nav/>
             <Page1/>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     )
 }

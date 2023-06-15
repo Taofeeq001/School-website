@@ -1,18 +1,17 @@
 
 .page1{
     width: 100%;
-    height: 90vh;
     display: flex;
     flex-direction: column;
 }
 
 .page1 video{
     width: 100%;
-    background-position: center;
+    background-position:center;
 }
 .page-cont{
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 20%;
 }
 .page-cont h2{
@@ -260,4 +259,54 @@
     flex-direction: column;
     padding: 5rem;
     justify-content: center;
+}
+@media screen and (max-width: 950px) {
+    .page-cont{
+        top: 18%;
+        left: 10%;
+    }
+    .page-cont h2{
+        font-size: 25px;
+        width: 70%;
+    }
+    .page-cont button{
+        padding: 10px 15px;
+    }
+
+    /* ============ STAFF AREA  ================*/
+    .staffs h1{
+        width: 60%;
+        text-align: center;
+        color: rgb(116, 14, 14);
+    }
+    .staffs p{
+        width: 85%;
+        font-size: 18px;
+    }
+    .staff-img{
+        flex-direction: column;
+    }
+    .curious-head{
+        text-align: center;
+        width: 90%;
+        gap: 20px;
+    }
+    .curious-head p{
+        font-size: 20px;
+        width: 70%;
+    }
+    .youtube{
+        width: 100%;
+        /* padding: 0 10rem; */
+    }
+    .youtube iframe{
+        width: 90%;
+    }
+    .youtube-details{
+        flex-direction: column;
+    }
+    .youtube-details p{
+        width: 80%;
+        font-weight: 100;
+    }
 }

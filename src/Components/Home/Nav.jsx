@@ -36,14 +36,12 @@ const Nav=()=>{
             <div className='nav-tab'>
                 <img src={logo} alt="" />
                 <div className='tabs'>
-                    <a href=""><TiWeatherShower/>Summer</a>
-                    <a href=""><SlCalender/> Calender</a>
-                    <a href=""><BsFillPersonFill/>Students</a>
-                    <a href=""><RiParentLine/>Parents</a>
-                    <a href=""><BsPersonLinesFill/>Faculty/Staffs</a>
-                    <a href=""><FaUserGraduate/>Alumni</a>
-                    <a href=""><MdOutlineDeviceHub/>ChargerHub</a>
-                    <a href=""><AiOutlineSearch/></a>
+                    <a href="/apply"><h3>Apply</h3></a>
+                    <a href=""> <h3>Visit</h3></a>
+                    <a href=""><h3>Get Info</h3></a>
+                    <a href=""><h3>Support</h3></a>
+                    <a href=""><h3>Contact Us</h3></a>
+                    {/* <a href=""><AiOutlineSearch/></a> */}
                 </div>
                 <button onClick={handleClick}>{toggle?<img src={harmb} alt="" />:<img src={harmb} alt="" />}</button>
             </div>
@@ -64,7 +62,7 @@ const Nav=()=>{
                 <a href=""><BsPersonLinesFill/>Faculty/Staffs</a>
                 <a href=""><FaUserGraduate/>Alumni</a>
                 <a href=""><MdOutlineDeviceHub/>ChargerHub</a>
-                <a href=""><AiOutlineCar/>visit</a>
+                <a href=""><AiOutlineCar/>Visit</a>
                 <a href=""><BsChatQuote/>Community</a>
                 <a href=""><GiSelfLove/>support</a>
                 <a href=""><FaRegHandshake/>Meet head of school Juliana</a>

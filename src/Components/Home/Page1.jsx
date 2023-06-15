@@ -4,6 +4,10 @@ import staff from '../../Images/recent-videos.jpg'
 import './Page1.css'
 import data from "./Prep";
 import Scroll from "./Scroll";
+import {BsInstagram} from  'react-icons/bs'
+import {AiFillTwitterSquare} from 'react-icons/ai'
+import {ImFacebook2} from 'react-icons/im'
+import {AiOutlineYoutube} from 'react-icons/ai'
 
 const Page1=()=>{
     return(
@@ -182,12 +186,12 @@ const Page1=()=>{
             </div>
             <div className="acad-comm">
                 <h1>The Academy Community</h1>
-                <p>Share your Academy pride with the world!</p>
-                <div>
-                    <a href="">In</a>
-                    <a href="">Tw</a>
-                    <a href="">fb</a>
-                    <a href="">yt</a>
+                <p className="acad-para">Share your Academy pride with the world!</p>
+                <div className="media">
+                    <a href=""><BsInstagram/></a>
+                    <a href=""><AiFillTwitterSquare/></a>
+                    <a href=""><ImFacebook2/></a>
+                    <a href=""><AiOutlineYoutube/></a>
                 </div>
                 <p>See our full social stream here!</p>
             </div>

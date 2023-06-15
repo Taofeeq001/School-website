@@ -1,11 +1,46 @@
 .footer{
     padding: 4rem 0;
-    background-color: red;
+    background-color: #CC2027;
     color: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .foot1{
     display: flex;
     gap: 20px;
+}
+.foot1 img{
+    width: 30%;
+}
+.ft1, .ft2, .ft3{
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 0 0 6px 1px rgb(0, 0, 0, 0.23); */
+}
+.ft1 h4{
+    text-align: left;
+}
+.ft3 a, .ft2 a{
+    color: white;
+}
+.follow{
+    display: flex;
+    gap: 10px;
+}
+.follow svg{
+    height: 25px;
+    width: 25px;
+    color: white;
+}
+.foot2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foot2 h5{
+    width: 40%;
+    text-align: center;
+    margin-bottom: 30px;
 }

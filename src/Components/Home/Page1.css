@@ -257,8 +257,33 @@
     background-color: red;
     display: flex;
     flex-direction: column;
-    padding: 5rem;
-    justify-content: center;
+    padding: 7rem;
+    align-items: center;
+}
+.acad-comm h1{
+    font-size: 50px;
+    color: white;
+}
+.acad-comm p{
+    font-size: 28px;
+    color: white;
+}
+.acad-comm .acad-para{
+    font-size: 35px;
+    color: white;
+}
+.media svg{
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+.media svg:hover{
+    color:yellow;
+}
+.media{
+    display: flex;
+    gap: 30px;
+    padding: 3rem 0;
 }
 @media screen and (max-width: 950px) {
     .page-cont{

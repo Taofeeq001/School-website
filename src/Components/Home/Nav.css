@@ -83,7 +83,7 @@
         height: 100%;
         right: 0;
         overflow: hidden;
-        transition: 3s ease-in-out;
+        transition: .9s ease-in-out;
         z-index: 100;
     }
     .mobile-nav a{
@@ -98,8 +98,38 @@
     .display{
         width: 80%;
         height: 100vh;
-        transition: 3s ease-in-out;
+        transition: .9s ease-in-out;
     }
-    
-    
+    .latest-news{
+        align-items: center;
+    }
+    .news-image{
+        width: 70%;
+        margin-left: 3rem;
+    }
+    .news-image img{
+        width: 100%;
+    }
+    /* .ddd p{
+        width: 100%;
+        font-size: small;
+    } */
+    /* =========== ACADEMY PROGRESS =================== */
+    .academy-progress{
+        padding: 0 35px;
+    }
+    .academy-progress p{
+        text-align: center;
+        font-size: 27px;
+        margin-top: 20px;
+    }
+    .map{
+        flex-direction: column;
+        width: 100%;
+    }
+    .mapper p{
+        font-size: 19px;
+        width: 180% !important;
+        margin-bottom: 20px;
+    }
 }

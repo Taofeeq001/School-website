@@ -82,7 +82,7 @@ const Page1=()=>{
                     <div className="youtube-details">
                         <iframe width="550" height="309" src="https://www.youtube.com/embed/RHu3VYxryLc" title="Juniors" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         <div>
-                            <h2 style={{width:"60%"}}>“I was really impressed by this block of four students who stuck together and built each other up.”</h2>
+                            <h2 className="jason" style={{width:"60%"}}>“I was really impressed by this block of four students who stuck together and built each other up.”</h2>
                             <p>~ Jason Zuffranieri, math teacher</p>
                         </div>
                     </div>
@@ -150,7 +150,7 @@ const Page1=()=>{
                         <p style={{color:'black'}}>Alburquerque Academy has been awarded the New Mexico Activities</p>
                     </a>
                 </div>
-                <div>
+                <div className="ddd">
                     <div className="news-image">
                         <img src={staff} alt="" />
                     </div>
@@ -161,10 +161,10 @@ const Page1=()=>{
             <div className="academy-progress">
                 <h1>Academy Prepares</h1>
                 <p>How are we preparing your student for college and life?</p>
-                <div style={{display:'flex', gap:'20', width:'60%', marginTop:'30px'}}>
+                <div className="map" style={{display:'flex', gap:'20', width:'60%', marginTop:'30px'}}>
                     {
                         data.map((data)=>(
-                            <div style={{display:'flex', flexDirection:"column",alignItems:'center', width:'100%'}}>
+                            <div className="mapper" style={{display:'flex', flexDirection:"column",alignItems:'center', width:'100%'}}>
                                 <img src={data.img} alt="" />
                                 <h3 style={{color:'red'}}>{data.heading}</h3>
                                 <p style={{width:'90%', textAlign:'center'}}>{data.paragraph}</p>

@@ -107,6 +107,7 @@ const Page1=()=>{
                         <div>
                             <button><a style={{color:'grey', fontWeight:600, fontSize:"15px"}} href="">READ MORE</a></button>
                         </div>
+                        <div className="overlay"></div>
                     </div>
                 </div>
                 <div className="experience1">
@@ -136,17 +137,17 @@ const Page1=()=>{
             <div className="latest-news">
                 <div className="news-content">
                     <h1>Latest News</h1>
-                    <a href="">
-                        <h2>Academy Wins NMAA Director's Cup for Fifth Straight year</h2>
-                        <p>Alburquerque Academy has been awarded the New Mexico Activities</p>
+                    <a style={{lineHeight:'2rem'}} href="">
+                        <h2 style={{color:'red'}}>Academy Wins NMAA Director's Cup for Fifth Straight year</h2>
+                        <p style={{color:'black'}}>Alburquerque Academy has been awarded the New Mexico Activities</p>
                     </a>
-                    <a href="">
-                        <h2>Academy Wins NMAA Director's Cup for Fifth Straight year</h2>
-                        <p>Alburquerque Academy has been awarded the New Mexico Activities</p>
+                    <a style={{lineHeight:'2rem'}} href="">
+                        <h2 style={{color:'red'}}>Academy Wins NMAA Director's Cup for Fifth Straight year</h2>
+                        <p style={{color:'black'}}>Alburquerque Academy has been awarded the New Mexico Activities</p>
                     </a>
-                    <a href="">
-                        <h2>Academy Wins NMAA Director's Cup for Fifth Straight year</h2>
-                        <p>Alburquerque Academy has been awarded the New Mexico Activities</p>
+                    <a style={{lineHeight:'2rem'}} href="">
+                        <h2 style={{color:'red'}}>Academy Wins NMAA Director's Cup for Fifth Straight year</h2>
+                        <p style={{color:'black'}}>Alburquerque Academy has been awarded the New Mexico Activities</p>
                     </a>
                 </div>
                 <div>
@@ -179,6 +180,18 @@ const Page1=()=>{
             <div style={{marginTop:"20px"}}>
                 <Scroll/>
             </div>
+            <div className="acad-comm">
+                <h1>The Academy Community</h1>
+                <p>Share your Academy pride with the world!</p>
+                <div>
+                    <a href="">In</a>
+                    <a href="">Tw</a>
+                    <a href="">fb</a>
+                    <a href="">yt</a>
+                </div>
+                <p>See our full social stream here!</p>
+            </div>
+
         </div>
     )
 }

@@ -29,11 +29,11 @@
 }
 .tabs{
     display: flex;
-    gap: 6rem;
+    gap: 3rem;
 }
 .tabs a{
     color: white;
-    font-size: x-large;
+    font-size: large;
     font-weight: 600;
 }
 .nav-tab-bellow{
@@ -49,5 +49,56 @@
     color: #4e0a0c;
     display: flex;
     font-size: larger;
+}
+.nav-tab button{
+    display: none;
+    background-Color: transparent; 
+    border: none;
+}
+.mobile-nav{
+    display: none;
+}
 
+
+@media screen and (max-width:950px) {
+    .nav .top, .nav-tab .tabs, .nav-tab-bellow{
+        display: none;
+    }
+    .nav-tab button{
+        display: block;
+        z-index: 999;
+    }
+    .nav-tab button img{
+        height: 100px;
+        width: 100px;
+    }
+    .mobile-nav{
+        display: block;
+        flex-direction: column;
+        padding-left: 0;
+        background-color:#4e0a0c;
+        position: absolute;
+        line-height: 64px;
+        width: 0;
+        height: 100%;
+        right: 0;
+        overflow: hidden;
+        transition: 3s ease-in-out;
+    }
+    .mobile-nav a{
+        color: white;
+        font-weight: 600;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-left: 30px;
+    }
+    
+    .display{
+        width: 80%;
+        height: 100vh;
+        transition: 3s ease-in-out;
+
+    }
+    
 }

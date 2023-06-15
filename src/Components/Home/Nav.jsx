@@ -37,7 +37,7 @@ const Nav=()=>{
                 <img src={logo} alt="" />
                 <div className='tabs'>
                     <a href="/apply"><h3>Apply</h3></a>
-                    <a href=""> <h3>Visit</h3></a>
+                    <a href=""><h3>Visit</h3></a>
                     <a href=""><h3>Get Info</h3></a>
                     <a href=""><h3>Support</h3></a>
                     <a href=""><h3>Contact Us</h3></a>
@@ -46,7 +46,7 @@ const Nav=()=>{
                 <button onClick={handleClick}>{toggle?<img src={harmb} alt="" />:<img src={harmb} alt="" />}</button>
             </div>
             <div className='nav-tab-bellow'>
-                <a href="">About</a>
+                <a href="/about">About</a>
                 <a href="">Admission</a>
                 <a href="">Academics</a>
                 <a href="">Athletics</a>

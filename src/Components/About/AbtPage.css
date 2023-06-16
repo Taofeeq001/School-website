@@ -1,3 +1,9 @@
+/* .about-page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+} */
 .about-img{
     background: url(../../Images/after.webp);
     width: 100%;
@@ -13,6 +19,10 @@
 .about{
     display: flex;
     gap: 40px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5rem;
 }
 .about-img h1{
     background-color: black;
@@ -25,6 +35,7 @@
     flex-direction: column;
     width: 40%;
     text-align: justify;
+    gap: 20px;
 }
 .container p{
     font-size: large;
@@ -42,8 +53,28 @@
     padding: 10px 4px;
     border-bottom: 2px solid gray;
 }
+.related-link a:hover{
+    background-color: grey;
+}
 .related-link a:active{
     background-color: rgb(173, 167, 167);
     width: 100%;
 }
-
+.btn{
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.btn button{
+    padding: 15px 9rem;
+    background-color: red;
+    border: none;
+}
+.btn button:hover{
+    background-color: #CC2027;
+}
+.btn button a{
+    color: white;
+}

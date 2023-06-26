@@ -39,7 +39,7 @@ const Nav=()=>{
                     <a href="/apply"><h3>Apply</h3></a>
                     <a href=""><h3>Visit</h3></a>
                     <a href=""><h3>Get Info</h3></a>
-                    <a href=""><h3>Support</h3></a>
+                    <a href="/support"><h3>Support</h3></a>
                     <a href=""><h3>Contact Us</h3></a>
                     {/* <a href=""><AiOutlineSearch/></a> */}
                 </div>
